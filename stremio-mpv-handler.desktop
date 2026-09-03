@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Stremio mpv Handler
+Comment=Opens Stremio Web streams in mpv
+Exec=EXEC_PATH %u
+Icon=mpv
+Terminal=false
+StartupNotify=false
+MimeType=x-scheme-handler/celluloid;

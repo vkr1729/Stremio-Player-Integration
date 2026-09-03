@@ -1,0 +1,9 @@
+{
+  "name": "stremio-mpv-integration",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Personal Chrome extension for opening Stremio Web streams in mpv",
+  "scripts": {
+    "test": "node test.js"
+  }
+}

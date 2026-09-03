@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Stremio mpv Integration",
+  "version": "2.0.0",
+  "description": "Opens Stremio Web streams in the local mpv player.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.stremio.com/*",
+        "http://web.stremio.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
